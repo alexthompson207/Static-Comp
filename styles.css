@@ -7,12 +7,19 @@ html {
   width: 100%;
 }
 
+/* Nav */
+
 .nav-container {
   display: flex;
   max-width: 100%;
   justify-content: space-between;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 40px 40px 20px 40px;
+  background-color: darkgray;
+}
+
+.nav-box-1 h4 {
+  padding-left: 15px;
+  font-size: 20px;
 }
 
 .nav-box-1 {
@@ -26,12 +33,15 @@ html {
   align-items: center;
 }
 
+/* Cards */
+
 .card-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* width: 90%; */
+  width: 75%;
+  padding: 20px;
 }
 
 .single-card {
@@ -44,6 +54,9 @@ html {
 }
 
 .card-image {
-  max-width: 100%;
+  width: 400px;
   height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
