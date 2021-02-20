@@ -13,23 +13,39 @@ html {
   display: flex;
   max-width: 100%;
   justify-content: space-between;
-  padding: 40px 40px 20px 40px;
+  padding-left: 40px;
+  padding-right: 40px;
   background-color: darkgray;
 }
 
 .nav-box-1 h4 {
-  padding-left: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
   font-size: 20px;
+  margin-bottom: 3px;
 }
 
 .nav-box-1 {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  padding-bottom: 8px;
 }
 
 .nav-box-2 {
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.logo {
+  display: flex;
   align-items: center;
 }
 
