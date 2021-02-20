@@ -82,5 +82,13 @@ html {
   padding: 10px;
 }
 
+.card-icon {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  /* background-color: ivory; */
+  width: 75px;
+}
+
 
 
