@@ -29,8 +29,12 @@ html {
 
 .nav-box-2 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
+}
+
+.nav1-icon {
+  width: 30px;
 }
 
 /* Title */
