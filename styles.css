@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+}
+
+main {
+  background-color: #fefae0;
+}
+
+/* Nav */
+
+.nav-container {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #dda15e;
+  color: #283618;
+}
+
+.nav-box-1 h4 {
+  padding-left: 10px;
+  padding-right: 60px;
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+.nav-box-1 {
+  display: flex;
+  align-items: flex-end;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.nav-box-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 40%;
+}
+
+.nav-box-2 p {
+  padding-left: 10px;
+}
+
+.nav-box-2 h4 {
+  font-size: 20px;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.nav1-icon {
+  width: 30px;
+}
+
+.nav2-icon {
+  width: 35px;
+  padding-left: 10px;
+}
+
+/* Title */
+.title {
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+/* Cards */
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+}
+
+.single-card {
+  position: relative;
+  width: 23%;
+  background-color: #606c38;
+  color: #fefae0;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.card-image {
+  /* max-width: 100%; */
+  height: 300px;
+  max-width: 100%;
+  opacity: .70;
+}
+
+.card-image:hover {
+  opacity: 1;
+}
+
+
+/* Card Content */
+
+.card-social {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  text-align: center;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-icon {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  /* background-color: ivory; */
+  width: 75px;
+}
+
+.card-icon:hover {
+  cursor: pointer;
+  color: #FEFAE0;
+  filter: invert(8%) sepia(80%) saturate(3777%) hue-rotate(310deg) brightness(100%) contrast(94%);
+}
+
+.related {
+  margin-top: 15px;
+}
+
+.link {
+  overflow-wrap: break-word;
+  background-color: #b7b7a4;
+  display: block;
+  padding: 10px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+/* tablet */
+/* @media screen and (max-width: 900px) {
+  .card-container {
+    width: 50%;
+  }
+} */
+
+/* mobile */
+@media screen and (max-width: 500px) {
+  body {
+    display: block;
+    width: 100%;
+  }
+  .card-container {
+    display: block;
+    width: 100%;
+  }
+}
+

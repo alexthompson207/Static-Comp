@@ -10,32 +10,34 @@
 
 <body>
   <nav class="nav-container">
+
     <div class="nav-box-1">
-      <p>Logout</p>
-      <!-- <img src="#" alt="Logout of profile"> -->
+      <img src="assets/share-social-outline.svg" alt="Share your profile" class="nav1-icon">
+      <h4>Share</h4>
+
+      <img src="assets/list-outline.svg" alt="Collections" class="nav1-icon">
+      <h4>Collections</h4>
+
+      <img src="assets/person-circle-outline.svg" alt="View your profile" class="nav1-icon">
+      <h4>Profile</h4>
     </div>
     <div class="nav-box-2">
-      <h4>Share</h4>
-      <!-- <img alt="Share your profile"> -->
-    </div>
-    <div class="nav-box-3">
-      <h4>Collections</h4>
-      <!-- <img alt="Collections"> -->
-    </div>
-    <div class="nav-box-4">
-      <h4>Profile</h4>
-      <!-- <img alt="View your profile"> -->
-    </div>
-    <div class="nav-box-4">
-      <h4>Fhoto</h4>
-      <!-- <img alt="Fhoto logo"> -->
+      <div class="logout">
+        <img src="assets/logout.svg" alt="Logout of profile" class="nav1-icon">
+        <p>Logout</p>
+      </div>
+      <div class="logo">
+        <h4>Neature</h4>
+        <img src="assets/neature-log.svg" alt="Fhoto logo" class="nav2-icon">
+      </div>
     </div>
   </nav>
   <main>
-    <h1>Your Favorite Fhotos</h1>
+    <h1 class="title">Your Favorite Photos</h1>
     <secion class="card-container">
       <div class="single-card">
         <img src="assets/garrett-parker.jpg" alt="Moraine Lake, Canada" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
         <div class="card-social">
           <p>Likes</p>
           <h3>1,234</h3>
@@ -43,47 +45,50 @@
         <div class="card-content">
           <h4>Garrett Parker</h4>
           <p>12/08/2020</p>
-          <a href="https://unsplash.com/photos/DlkF4-dbCOU">https://unsplash.com/photos/DlkF4-dbCOU</a>
+          <a class="link" href="https://unsplash.com/photos/DlkF4-dbCOU">https://unsplash.com/photos/DlkF4-dbCOU</a>
           <p>Canada</p>
           <h4>Moraine Lake</h4>
-          <p>Related Photos:</p>
+          <p class="related">Related Photos:</p>
           <h3>8</h3>
         </div>
       </div>
       <div class="single-card">
-        <img src="assets/guillaume-marques.jpg" alt="Chamonix-Mont-Blanc, France" class="card-image">
+        <img src="assets/jake-hills.jpg" alt="Jasper, Canada" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
         <div class="card-social">
           <p>Likes</p>
           <h3>1,234</h3>
         </div>
         <div class="card-content">
-          <h4>Guillaume Marques</h4>
+          <h4>Jake Hills</h4>
           <p>12/08/2020</p>
-          <a href="https://unsplash.com/photos/9HRLg-yzeq8">https://unsplash.com/photos/9HRLg-yzeq8</a>
-          <p>France</p>
-          <h4>Chamonix-Mont-Blanc</h4>
-          <p>Related Photos:</p>
+          <a class="link" href="https://unsplash.com/photos/9HRLg-yzeq8">https://unsplash.com/photos/c017EyPWVZg</a>
+          <p>Canada</p>
+          <h4>Jasper, AB</h4>
+          <p class="related">Related Photos:</p>
           <h3>8</h3>
         </div>
       </div>
       <div class="single-card">
-        <img src="assets/janik.jpg" alt="Sunrise over snowy mountains, Switzerland" class="card-image">
+        <img src="assets/tomas-malik.jpg" alt="Tre Cime di Lavaredo, Taliansko" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
         <div class="card-social">
           <p>Likes</p>
           <h3>1,234</h3>
         </div>
         <div class="card-content">
-          <h4>Janik</h4>
+          <h4>Tomas Malik</h4>
           <p>12/08/2020</p>
-          <a href="https://unsplash.com/photos/OeC9VAgvRMs">https://unsplash.com/photos/OeC9VAgvRMs</a>
-          <p>Switzerland</p>
-          <h4>Unknown Mountains</h4>
-          <p>Related Photos:</p>
+          <a class="link" href="https://unsplash.com/photos/OeC9VAgvRMs">https://unsplash.com/photos/TCJM2dF7FLM</a>
+          <p>Taliansko</p>
+          <h4>Tre Cime di Lavaredo</h4>
+          <p class="related">Related Photos:</p>
           <h3>8</h3>
         </div>
       </div>
       <div class="single-card">
         <img src="assets/johannes-waibel.jpg" alt="Snowboarder arching a snowy turn, Austria" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
         <div class="card-social">
           <p>Likes</p>
           <h3>1,234</h3>
@@ -91,15 +96,16 @@
         <div class="card-content">
           <h4>Johannes Waibel</h4>
           <p>12/08/2020</p>
-          <a href="https://unsplash.com/photos/WdBQHcIiSIw">https://unsplash.com/photos/WdBQHcIiSIw</a>
+          <a class="link" href="https://unsplash.com/photos/WdBQHcIiSIw">https://unsplash.com/photos/WdBQHcIiSIw</a>
           <p>Austria</p>
           <h4>Unknown Mountain</h4>
-          <p>Related Photos:</p>
+          <p class="related">Related Photos:</p>
           <h3>8</h3>
         </div>
       </div>
       <div class="single-card">
         <img src="assets/lesly-derksen.jpg" alt="Mt Baker, Washington State" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
         <div class="card-social">
           <p>Likes</p>
           <h3>1,234</h3>
@@ -107,15 +113,16 @@
         <div class="card-content">
           <h4>Lesly Derksen</h4>
           <p>12/08/2020</p>
-          <a href="https://unsplash.com/photos/NIt5wHtnCJE">https://unsplash.com/photos/NIt5wHtnCJE</a>
+          <a class="link" href="https://unsplash.com/photos/NIt5wHtnCJE">https://unsplash.com/photos/NIt5wHtnCJE</a>
           <p>Washington</p>
           <h4>Mt. Baker</h4>
-          <p>Related Photos:</p>
+          <p class="related">Related Photos:</p>
           <h3>8</h3>
         </div>
       </div>
       <div class="single-card">
         <img src="assets/logan-mayer.jpg" alt="Mt Moran, Grand Teton NP, Wyoming" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
         <div class="card-social">
           <p>Likes</p>
           <h3>1,234</h3>
@@ -123,15 +130,16 @@
         <div class="card-content">
           <h4>Logan Mayer</h4>
           <p>12/08/2020</p>
-          <a href="https://unsplash.com/photos/gKIZlf5WNUI">https://unsplash.com/photos/gKIZlf5WNUI</a>
+          <a class="link" href="https://unsplash.com/photos/gKIZlf5WNUI">https://unsplash.com/photos/gKIZlf5WNUI</a>
           <p>Wyoming</p>
           <h4>Mt. Moran</h4>
-          <p>Related Photos:</p>
+          <p class="related">Related Photos:</p>
           <h3>8</h3>
         </div>
       </div>
       <div class="single-card">
         <img src="assets/lubo-minar.jpg" alt="Mt Shasta, California" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
         <div class="card-social">
           <p>Likes</p>
           <h3>1,234</h3>
@@ -139,34 +147,31 @@
         <div class="card-content">
           <h4>Lubo Minar</h4>
           <p>12/08/2020</p>
-          <a href="https://unsplash.com/photos/3K6ZkYBj2Xo">https://unsplash.com/photos/3K6ZkYBj2Xo</a>
+          <a class="link" href="https://unsplash.com/photos/3K6ZkYBj2Xo">https://unsplash.com/photos/3K6ZkYBj2Xo</a>
           <p>California</p>
           <h4>Mt. Shasta</h4>
-          <p>Related Photos:</p>
+          <p class="related">Related Photos:</p>
           <h3>8</h3>
         </div>
-        <div class="single-card">
-          <img src="assets/tim-stief.jpg" alt="Dolomites, Italy" class="card-image">
-          <div class="card-social">
-            <p>Likes</p>
-            <h3>1,234</h3>
-          </div>
-          <div class="card-content">
-            <h4>Tim Stief</h4>
-            <p>12/08/2020</p>
-            <a href="https://unsplash.com/photos/YFFGkE3y4F8">https://unsplash.com/photos/YFFGkE3y4F8</a>
-            <p>Italy</p>
-            <h4>Dolomites</h4>
-            <p>Related Photos:</p>
-            <h3>8</h3>
-          </div>
+      </div>
+      <div class="single-card">
+        <img src="assets/tim-stief.jpg" alt="Dolomites, Italy" class="card-image">
+        <img src="assets/image-outline.svg" alt="Picture icon" class="card-icon">
+        <div class="card-social">
+          <p>Likes</p>
+          <h3>1,234</h3>
         </div>
-
-
+        <div class="card-content">
+          <h4>Tim Stief</h4>
+          <p>12/08/2020</p>
+          <a class="link" href="https://unsplash.com/photos/YFFGkE3y4F8">https://unsplash.com/photos/YFFGkE3y4F8</a>
+          <p>Italy</p>
+          <h4>Dolomites</h4>
+          <p class="related">Related Photos:</p>
+          <h3>8</h3>
+        </div>
+      </div>
     </secion>
-
-
-
   </main>
 </body>
 
