@@ -68,6 +68,7 @@ After I started to use all horizontal orientation images I no longer needed to u
 ![Final Comp in Desktop View](assets/final.png)
 
 #### Final Comp in Mobile View
+![Final Comp in Mobile View](assets/final2.png)
 
 ## Author
 
