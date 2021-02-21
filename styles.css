@@ -84,6 +84,7 @@ main {
 
 /* Title */
 .title {
+  margin: 0;
   padding-left: 10px;
   padding-top: 30px;
 }
