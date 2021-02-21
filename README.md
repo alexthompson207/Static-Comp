@@ -50,6 +50,12 @@ Then I was able to create a basic HTML layout using a `<nav>` tag for the bar ac
 ![Draft of Comp](assets/comp-1.png)
 
 
+Once I changed using all horizontal orientation images I no longer needed to use a fixed width and height. Next I began to add fonts, colors, icons, and borders to my website. Then I created 2 media queries for different breakpoints and used relative measurement units in my CSS to make my webpage responsive for all views. Lastly I played with subtle CSS styling such as hovers and cursors. 
+
+#### My Final Comp in Desktop View
+
+![Final Comp in Desktop View](assets/final.png)
+
 ## Contributers
 
 * [Alex Thompson](https://github.com/alexthompson207) - Game creator
