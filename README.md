@@ -29,8 +29,8 @@ The goal of this [project](https://alexthompson207.github.io/static-comp/) was t
 
 [Project Brief and Rubric](https://frontend.turing.io/projects/module-1/m1-static-comp).
 
-Below is the required layout of the provided comp;
 
+Below is the required layout of the provided comp;
 #### Static Comp Website
 
 ![Provided Comp](https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
