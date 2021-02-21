@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-html {
+html, body {
   width: 100%;
 }
 
@@ -37,6 +37,11 @@ main {
   padding-bottom: 20px;
 }
 
+.box-1 {
+  display: flex;
+  align-items: flex-end;
+}
+
 .nav-box-2 {
   display: flex;
   flex-direction: column;
@@ -47,6 +52,8 @@ main {
 
 .nav-box-2 p {
   padding-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .nav-box-2 h4 {
@@ -156,21 +163,104 @@ main {
 }
 
 /* tablet */
-/* @media screen and (max-width: 900px) {
-  .card-container {
-    width: 50%;
+@media screen and (max-width: 900px) {
+  .nav-container {
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
   }
-} */
+
+  .nav-box-1 {
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 0 0 20px;
+  }
+
+  .nav-box-1 h4 {
+    padding-right: 0;
+    font-size: 20px;
+  }
+
+  .logout, .logo {
+    padding: 0;
+  }
+
+  .box-1 {
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-box-2 {
+    align-items: flex-end;
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .card-container {
+    padding: 20px 0 0 0;
+    margin: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  .single-card {
+    width: 43%;
+  }
+}
 
 /* mobile */
 @media screen and (max-width: 500px) {
-  body {
-    display: block;
+
+  .nav-container {
+    flex-direction: column;
+    min-width: 100%;
+    padding: 20px 0 10px 0;
+    margin: 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-box-1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .nav-box-1 h4 {
+    padding-right: 0;
+    font-size: 20px;
+  }
+
+  .logout {
+    padding: 0 0 10px 0;
+  }
+
+  .box-1 {
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-box-2 {
+    align-items: center;
     width: 100%;
   }
-  .card-container {
-    display: block;
-    width: 100%;
+
+  .title {
+    text-align: center;
+    padding-left: 0;
+    font-size: 25px;
+  }
+
+  .single-card {
+    width: 80%;
   }
 }
 
