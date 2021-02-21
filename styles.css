@@ -33,6 +33,7 @@ main {
 .nav-box-1 {
   display: flex;
   align-items: flex-end;
+  width: 60%;
   padding-bottom: 20px;
 }
 
@@ -40,9 +41,16 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
-  margin-right: 30px;
-  
+  align-items: flex-end;
+  width: 40%;
+}
+
+.nav-box-2 p {
+  padding-left: 10px;
+}
+
+.nav-box-2 h4 {
+  font-size: 20px;
 }
 
 .logout {
@@ -63,7 +71,8 @@ main {
 }
 
 .nav2-icon {
-  
+  width: 35px;
+  padding-left: 10px;
 }
 
 /* Title */
@@ -97,11 +106,12 @@ main {
 .card-image {
   /* max-width: 100%; */
   height: 300px;
-  width: 300px;
+  max-width: 100%;
   opacity: .70;
-  /* background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover; */
+}
+
+.card-image:hover {
+  opacity: 1;
 }
 
 
@@ -126,6 +136,12 @@ main {
   width: 75px;
 }
 
+.card-icon:hover {
+  cursor: pointer;
+  color: #FEFAE0;
+  filter: invert(8%) sepia(80%) saturate(3777%) hue-rotate(310deg) brightness(100%) contrast(94%);
+}
+
 .related {
   margin-top: 15px;
 }
@@ -136,6 +152,7 @@ main {
   display: block;
   padding: 10px;
   margin: 15px;
+  text-decoration: none;
 }
 
 
