@@ -24,7 +24,7 @@
 
 ## About The Project
 
-[Deployed Site](https://alexthompson207.github.io/static-comp/)
+View my webpage here: [Deployed Site](https://alexthompson207.github.io/static-comp/)
 
 [Project Brief and Rubric](https://frontend.turing.io/projects/module-1/m1-static-comp)
 
