@@ -30,7 +30,7 @@ The goal of this project was to use CSS and HTML to recreate a webpage based off
 
 Below is the required layout of the provided comp;
 
-(https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
+![Provided Comp](https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
 
 
 ## Functionality
