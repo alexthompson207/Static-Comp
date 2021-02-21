@@ -260,6 +260,7 @@ main {
   .nav-box-2 {
     align-items: center;
     width: 100%;
+    padding: 0;
   }
 
   .title {
