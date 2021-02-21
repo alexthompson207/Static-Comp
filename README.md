@@ -21,17 +21,21 @@
   - [Built With](#built-with)
 - [Contact](#contact)
 
-## 
 
 ## About The Project
 
+[Deployed Site](https://alexthompson207.github.io/static-comp/)
+[Project Brief and Rubric](https://frontend.turing.io/projects/module-1/m1-static-comp)
+
 The goal of this [project](https://alexthompson207.github.io/static-comp/) was to use CSS and HTML to recreate a webpage based off a provided static design. The integrity of the original design was to remain intact, however we were given the creative license for copy, images, icons, and colors. Furthermore, we were required to make our  page compatible across different browsers such as Firefox, Safari, and Chrome and have smooth transitions on our webpage into different breakpoints for desktop, tablet, and mobile views.
 
-[Project Brief and Rubric](https://frontend.turing.io/projects/module-1/m1-static-comp).
+
 
 #### Built With:
 
-- [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://www.javascript.com/) 
+- ![HTML5](https://img.shields.io/badge/-HTML5-black?style=flat-square&logo=html5&logoColor=white)
+
+- ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
 
 Below is the required layout of the provided comp;
 #### Static Comp Website
@@ -55,16 +59,16 @@ Then I was able to create a basic HTML layout using a `<nav>` tag for the bar ac
 ![Draft of Comp](assets/comp-1.png)
 
 
-Once I changed using all horizontal orientation images I no longer needed to use a fixed width and height. Next I began to add fonts, colors, icons, and borders to my website. Then I created 2 media queries for different breakpoints and used relative measurement units in my CSS to make my webpage responsive for all views. Lastly I played with subtle CSS styling such as hovers and cursors. 
+After I started to use all horizontal orientation images I no longer needed to use a fixed width and height. Next I began to add fonts, colors, icons, and borders to my website. Then I created 2 media queries for different breakpoints and used relative measurement units in my CSS to make my webpage responsive for all views. Lastly I played with subtle CSS styling such as hovers and cursors. 
 
 #### Final Comp in Desktop View
 ![Final Comp in Desktop View](assets/final.png)
 
 #### Final Comp in Mobile View
 
-## Contributers
+## Author
 
-* [Alex Thompson](https://github.com/alexthompson207) - Game creator
+* [Alex Thompson](https://github.com/alexthompson207)
 
 
 ## Contact
