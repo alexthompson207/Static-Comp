@@ -28,8 +28,8 @@ The goal of this [project](https://alexthompson207.github.io/static-comp/) was t
 
 - ![CSS3](https://img.shields.io/badge/-CSS3-black?style=flat-square&logo=css3)
 
-Below is the required layout of the provided comp;
-#### Static Comp Website
+
+### Provided Static Comp Website
 
 ![Provided Comp](https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
 
