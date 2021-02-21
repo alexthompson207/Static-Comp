@@ -36,23 +36,14 @@ Below is the required layout of the provided comp;
 ![Provided Comp](https://frontend.turing.io/assets/images/static-comp-challenge-2.jpg)
 
 
+## Progression
 
+I started this project by creating a public repo on GitHub and adding `index.html`, `styles.css`, and `normailize.css` files, along with an `assets` directory to hold all images and icons I used to build out my comp. 
 
-#### Game Play
+Next, I made a rough wireframe of the basic layout I wanted to achieve. This helped me to conceptualize the structure of my website and see how HTML tags would relate to certain CSS flexbox strategies. 
+See wireframe below.
 
-
-#### Game End
-
-
-
-## Set-up Instructions
-
-1. Fork this [Github repository](https://github.com/alexthompson207/flashcards) and clone it down to your local machine using the `git clone` command in your Terminal.
-2. Move into that directory with `cd flashcards` in your Terminal.
-3. Run `node index.js` in your Terminal to run the game locally in the Terminal.
-4. Select your answers to the questions by typing the number and pressing `return` OR using your `arrow` and `return` keys.
-5. To see the code itself locally, run `<name of text editor> .` in your Terminal.
-6. To test the code, run `npm install` and then `npm test`.
+![Wireframe](assets/wireframe.png)
 
 
 ## Contributers
