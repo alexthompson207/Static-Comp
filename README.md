@@ -10,18 +10,6 @@
 
 
 
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Functionality](#functionality)
-  - [Giph of Game Play](#game-play)
-  - [Giph of Game End](#game-end)
-- [Set-up Instructions](#set-up-instructions)
-- [Contributors](#contributors)
-  - [Built With](#built-with)
-- [Contact](#contact)
-
-
 ## About The Project
 
 View my webpage here: [Responsive Comp](https://alexthompson207.github.io/static-comp/)
