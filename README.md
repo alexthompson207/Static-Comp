@@ -45,6 +45,10 @@ See wireframe below.
 
 ![Wireframe](assets/wireframe.png)
 
+Then I was able to create a basic HTML layout using a `<nav>` tag for the bar across the top and a `<section>` tag for the card layouts. From there I mostly used `<div>` tags to create containers around elements to style them according. One issue I ran into was the images I found online were all different sizes and both horizontal and vertical views. I initially tried to make this work, but without some Photoshop magic, I resorted to using all images that were in a horizontal orientation. 
+
+![Draft of Comp](assests/comp-1.png)
+
 
 ## Contributers
 
