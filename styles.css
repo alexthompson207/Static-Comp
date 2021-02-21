@@ -148,7 +148,6 @@ main {
   position: absolute;
   left: 5px;
   top: 5px;
-  /* background-color: ivory; */
   width: 75px;
 }
 
@@ -273,4 +272,3 @@ main {
     width: 80%;
   }
 }
-
