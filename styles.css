@@ -100,10 +100,10 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 90%;
-  padding: 20px;
-  margin: auto;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .single-card {
