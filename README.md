@@ -29,6 +29,9 @@ The goal of this [project](https://alexthompson207.github.io/static-comp/) was t
 
 [Project Brief and Rubric](https://frontend.turing.io/projects/module-1/m1-static-comp).
 
+#### Built With:
+
+- [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://www.javascript.com/) 
 
 Below is the required layout of the provided comp;
 #### Static Comp Website
@@ -43,26 +46,25 @@ I started this project by creating a public repo on GitHub and adding `index.htm
 Next, I made a rough wireframe of the basic layout I wanted to achieve. This helped me to conceptualize the structure of my website and see how HTML tags would relate to certain CSS flexbox strategies. 
 See wireframe below.
 
+#### Wireframe
 ![Wireframe](assets/wireframe.png)
 
 Then I was able to create a basic HTML layout using a `<nav>` tag for the bar across the top and a `<section>` tag for the card layouts. From there I mostly used `<div>` tags to create containers around elements to style them according. One issue I ran into was the images I found online were all different sizes and both horizontal and vertical views. I initially tried to make this work, but without some Photoshop magic, I resorted to using all images that were in a horizontal orientation. 
 
+#### Draft Using Fixed Image Heights and Widths
 ![Draft of Comp](assets/comp-1.png)
 
 
 Once I changed using all horizontal orientation images I no longer needed to use a fixed width and height. Next I began to add fonts, colors, icons, and borders to my website. Then I created 2 media queries for different breakpoints and used relative measurement units in my CSS to make my webpage responsive for all views. Lastly I played with subtle CSS styling such as hovers and cursors. 
 
-#### My Final Comp in Desktop View
-
+#### Final Comp in Desktop View
 ![Final Comp in Desktop View](assets/final.png)
+
+#### Final Comp in Mobile View
 
 ## Contributers
 
 * [Alex Thompson](https://github.com/alexthompson207) - Game creator
-
-#### Built With:
-
-- [![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)](https://www.javascript.com/) 
 
 
 ## Contact
