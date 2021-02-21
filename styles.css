@@ -52,6 +52,8 @@ main {
 
 .nav-box-2 p {
   padding-left: 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .nav-box-2 h4 {
@@ -169,13 +171,6 @@ main {
 
 /* mobile */
 @media screen and (max-width: 500px) {
-  body, html {
-    /* min-width: 100%; */
-    /* width: 500px; */
-    /* display: flex; */
-    margin: 0;
-    padding: 0;
-  }
 
   .nav-container {
     flex-direction: column;
@@ -185,8 +180,6 @@ main {
   }
 
   .card-container {
-    display: flex;
-    /* min-width: 100%; */
     flex-direction: column;
     align-items: center;
   }
@@ -196,6 +189,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding-bottom: 0;
+    padding-top: 20px;
   }
 
   .nav-box-1 h4 {
@@ -203,14 +197,25 @@ main {
     font-size: 20px;
   }
 
+  .logout {
+    padding: 0 0 10px 0;
+  }
+
   .box-1 {
-    /* flex-direction: row; */
-    /* align-items: center; */
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
   }
 
   .nav-box-2 {
     align-items: center;
     width: 100%;
+  }
+
+  .title {
+    text-align: center;
+    padding-left: 0;
+    font-size: 25px;
   }
 
   .single-card {
