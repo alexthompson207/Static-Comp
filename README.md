@@ -24,12 +24,14 @@
 
 ## About The Project
 
-View my webpage here: [Deployed Site](https://alexthompson207.github.io/static-comp/)
+View my webpage here: [Responsive Comp](https://alexthompson207.github.io/static-comp/)
 
-[Project Brief and Rubric](https://frontend.turing.io/projects/module-1/m1-static-comp)
+
 
 The goal of this [project](https://alexthompson207.github.io/static-comp/) was to use CSS and HTML to recreate a webpage based off a provided static design. The integrity of the original design was to remain intact, however we were given the creative license for copy, images, icons, and colors. Furthermore, we were required to make our  page compatible across different browsers such as Firefox, Safari, and Chrome and have smooth transitions on our webpage into different breakpoints for desktop, tablet, and mobile views.
 
+
+[Project Brief and Rubric](https://frontend.turing.io/projects/module-1/m1-static-comp)
 
 
 #### Built With:
