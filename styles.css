@@ -155,5 +155,22 @@ main {
   text-decoration: none;
 }
 
+/* tablet */
+/* @media screen and (max-width: 900px) {
+  .card-container {
+    width: 50%;
+  }
+} */
 
+/* mobile */
+@media screen and (max-width: 500px) {
+  body {
+    display: block;
+    width: 100%;
+  }
+  .card-container {
+    display: block;
+    width: 100%;
+  }
+}
 
